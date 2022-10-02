@@ -1,2 +1,2 @@
 # thaPsicarieteSource
-source code of https://github.com/justmammt/thaPsicariete
+source code of [thaPsicariete App](https://github.com/justmammt/thaPsicariete)
