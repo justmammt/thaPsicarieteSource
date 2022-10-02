@@ -1605,10 +1605,10 @@ struct AppInfo: View {
                 Link("Developer's Website",
                      destination: URL(string: "https://justmammtlol.ga")!)
                 Link("App Source Code",
-                     destination: URL(string: "https://github.com/justmammt/thaPsicariete")!)
+                     destination: URL(string: "https://github.com/justmammt/thaPsicarieteSource")!)
  
             }
-            Text("Version 0.0.1")
+            Text("Version 0.1.0")
         }
     }
 }
