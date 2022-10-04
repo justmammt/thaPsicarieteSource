@@ -7,27 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52A800D428E9C51400783935 /*  yeah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800C028E9C51400783935 /*  yeah.mp3 */; };
-		52A800D528E9C51400783935 /*  !ly (feat. Coez).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800C128E9C51400783935 /*  !ly (feat. Coez).mp3 */; };
-		52A800D628E9C51400783935 /*  come ti vorrei.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800C228E9C51400783935 /*  come ti vorrei.mp3 */; };
-		52A800D728E9C51400783935 /*  mar+e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800C328E9C51400783935 /*  mar+e.mp3 */; };
-		52A800D828E9C51400783935 /*  b@by nel bed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800C428E9C51400783935 /*  b@by nel bed.mp3 */; };
-		52A800D928E9C51400783935 /*  w()ah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800C528E9C51400783935 /*  w()ah.mp3 */; };
-		52A800DA28E9C51400783935 /*  mi @mi o è f@ke.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800C628E9C51400783935 /*  mi @mi o è f@ke.mp3 */; };
-		52A800DB28E9C51400783935 /*  _bilico_.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800C728E9C51400783935 /*  _bilico_.mp3 */; };
-		52A800DC28E9C51400783935 /*  s!r! (feat. Lazza & Sfera Ebbasta).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800C828E9C51400783935 /*  s!r! (feat. Lazza & Sfera Ebbasta).mp3 */; };
-		52A800DD28E9C51400783935 /*  cas!no nella m!a testa (feat. Salmo).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800C928E9C51400783935 /*  cas!no nella m!a testa (feat. Salmo).mp3 */; };
-		52A800DE28E9C51400783935 /*  l%p.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800CA28E9C51400783935 /*  l%p.mp3 */; };
-		52A800DF28E9C51400783935 /*  okk@pp@.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800CB28E9C51400783935 /*  okk@pp@.mp3 */; };
-		52A800E028E9C51400783935 /*  + bla se c'è bling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800CC28E9C51400783935 /*  + bla se c'è bling.mp3 */; };
-		52A800E128E9C51400783935 /*  rock & rolla (feat. Rkomi).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800CD28E9C51400783935 /*  rock & rolla (feat. Rkomi).mp3 */; };
-		52A800E228E9C51400783935 /*  m%n.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800CE28E9C51400783935 /*  m%n.mp3 */; };
-		52A800E328E9C51400783935 /* rotonda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800CF28E9C51400783935 /* rotonda.mp3 */; };
-		52A800E428E9C51400783935 /*  sci@ll@ (feat. Tananai).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800D028E9C51400783935 /*  sci@ll@ (feat. Tananai).mp3 */; };
-		52A800E528E9C51400783935 /*  c!ao (feat. Rondodasosa).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800D128E9C51400783935 /*  c!ao (feat. Rondodasosa).mp3 */; };
-		52A800E628E9C51400783935 /*  r!va (feat. Pinguini Tattici Nucleari).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800D228E9C51400783935 /*  r!va (feat. Pinguini Tattici Nucleari).mp3 */; };
-		52A800E728E9C51400783935 /*  molecole (interlude).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A800D328E9C51400783935 /*  molecole (interlude).mp3 */; };
+		524D355128ECD53F00DBC06A /* TestUIOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D355028ECD53F00DBC06A /* TestUIOne.swift */; };
+		524D355328ECDCB600DBC06A /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D355228ECDCB600DBC06A /* MyViewController.swift */; };
 		52A800E928E9C54600783935 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A800E828E9C54600783935 /* Extensions.swift */; };
+		52C3E26C28EB2F8B00E4DC97 /* Ariete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3E26B28EB2F8B00E4DC97 /* Ariete.swift */; };
+		52C3E27428EB8A8500E4DC97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3E27328EB8A8500E4DC97 /* ViewController.swift */; };
+		52C3E27628EB8C8400E4DC97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3E27528EB8C8400E4DC97 /* AppDelegate.swift */; };
+		52C3E27828EC9F2700E4DC97 /* SPECCHIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3E27728EC9F2700E4DC97 /* SPECCHIO.swift */; };
 		52CF013A28E49E8600735782 /* thaPsicarieteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CF013928E49E8600735782 /* thaPsicarieteApp.swift */; };
 		52CF013C28E49E8600735782 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CF013B28E49E8600735782 /* ContentView.swift */; };
 		52CF013E28E49E8600735782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CF013D28E49E8600735782 /* Assets.xcassets */; };
@@ -55,27 +41,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		52A800C028E9C51400783935 /*  yeah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " yeah.mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ yeah.mp3"; sourceTree = "<group>"; };
-		52A800C128E9C51400783935 /*  !ly (feat. Coez).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " !ly (feat. Coez).mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ !ly (feat. Coez).mp3"; sourceTree = "<group>"; };
-		52A800C228E9C51400783935 /*  come ti vorrei.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " come ti vorrei.mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ come ti vorrei.mp3"; sourceTree = "<group>"; };
-		52A800C328E9C51400783935 /*  mar+e.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " mar+e.mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ mar+e.mp3"; sourceTree = "<group>"; };
-		52A800C428E9C51400783935 /*  b@by nel bed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " b@by nel bed.mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ b@by nel bed.mp3"; sourceTree = "<group>"; };
-		52A800C528E9C51400783935 /*  w()ah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " w()ah.mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ w()ah.mp3"; sourceTree = "<group>"; };
-		52A800C628E9C51400783935 /*  mi @mi o è f@ke.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " mi @mi o è f@ke.mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ mi @mi o è f@ke.mp3"; sourceTree = "<group>"; };
-		52A800C728E9C51400783935 /*  _bilico_.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " _bilico_.mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ _bilico_.mp3"; sourceTree = "<group>"; };
-		52A800C828E9C51400783935 /*  s!r! (feat. Lazza & Sfera Ebbasta).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " s!r! (feat. Lazza & Sfera Ebbasta).mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ s!r! (feat. Lazza & Sfera Ebbasta).mp3"; sourceTree = "<group>"; };
-		52A800C928E9C51400783935 /*  cas!no nella m!a testa (feat. Salmo).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " cas!no nella m!a testa (feat. Salmo).mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ cas!no nella m!a testa (feat. Salmo).mp3"; sourceTree = "<group>"; };
-		52A800CA28E9C51400783935 /*  l%p.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " l%p.mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ l%p.mp3"; sourceTree = "<group>"; };
-		52A800CB28E9C51400783935 /*  okk@pp@.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " okk@pp@.mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ okk@pp@.mp3"; sourceTree = "<group>"; };
-		52A800CC28E9C51400783935 /*  + bla se c'è bling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " + bla se c'è bling.mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ + bla se c'è bling.mp3"; sourceTree = "<group>"; };
-		52A800CD28E9C51400783935 /*  rock & rolla (feat. Rkomi).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " rock & rolla (feat. Rkomi).mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ rock & rolla (feat. Rkomi).mp3"; sourceTree = "<group>"; };
-		52A800CE28E9C51400783935 /*  m%n.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " m%n.mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ m%n.mp3"; sourceTree = "<group>"; };
-		52A800CF28E9C51400783935 /* rotonda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rotonda.mp3; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/rotonda.mp3"; sourceTree = "<group>"; };
-		52A800D028E9C51400783935 /*  sci@ll@ (feat. Tananai).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " sci@ll@ (feat. Tananai).mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ sci@ll@ (feat. Tananai).mp3"; sourceTree = "<group>"; };
-		52A800D128E9C51400783935 /*  c!ao (feat. Rondodasosa).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " c!ao (feat. Rondodasosa).mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ c!ao (feat. Rondodasosa).mp3"; sourceTree = "<group>"; };
-		52A800D228E9C51400783935 /*  r!va (feat. Pinguini Tattici Nucleari).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " r!va (feat. Pinguini Tattici Nucleari).mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ r!va (feat. Pinguini Tattici Nucleari).mp3"; sourceTree = "<group>"; };
-		52A800D328E9C51400783935 /*  molecole (interlude).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = " molecole (interlude).mp3"; path = "../../../Documents/[SPOTIFY-DOWNLOADER.COM] c@ra++ere s?ec!@le/ molecole (interlude).mp3"; sourceTree = "<group>"; };
+		524D355028ECD53F00DBC06A /* TestUIOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUIOne.swift; sourceTree = "<group>"; };
+		524D355228ECDCB600DBC06A /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		52A800E828E9C54600783935 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		52C3E26628E9EE6C00E4DC97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52C3E26B28EB2F8B00E4DC97 /* Ariete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ariete.swift; sourceTree = "<group>"; };
+		52C3E27328EB8A8500E4DC97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52C3E27528EB8C8400E4DC97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52C3E27728EC9F2700E4DC97 /* SPECCHIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPECCHIO.swift; sourceTree = "<group>"; };
+		52C3E28F28ECA28000E4DC97 /*  s!r! (feat. Lazza & Sfera Ebbasta).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " s!r! (feat. Lazza & Sfera Ebbasta).mp3"; sourceTree = "<group>"; };
+		52C3E29028ECA28100E4DC97 /*  yeah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " yeah.mp3"; sourceTree = "<group>"; };
+		52C3E29128ECA28100E4DC97 /*  b@by nel bed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " b@by nel bed.mp3"; sourceTree = "<group>"; };
+		52C3E29228ECA28100E4DC97 /*  come ti vorrei.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " come ti vorrei.mp3"; sourceTree = "<group>"; };
+		52C3E29328ECA28200E4DC97 /*  w()ah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " w()ah.mp3"; sourceTree = "<group>"; };
+		52C3E29428ECA28200E4DC97 /*  mi @mi o è f@ke.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " mi @mi o è f@ke.mp3"; sourceTree = "<group>"; };
+		52C3E29528ECA28200E4DC97 /*  m%n.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " m%n.mp3"; sourceTree = "<group>"; };
+		52C3E29628ECA28200E4DC97 /*  mar+e.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " mar+e.mp3"; sourceTree = "<group>"; };
+		52C3E29728ECA28300E4DC97 /*  molecole (interlude).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " molecole (interlude).mp3"; sourceTree = "<group>"; };
+		52C3E29828ECA28300E4DC97 /*  _bilico_.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " _bilico_.mp3"; sourceTree = "<group>"; };
+		52C3E29928ECA28300E4DC97 /*  l%p.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " l%p.mp3"; sourceTree = "<group>"; };
+		52C3E29A28ECA28300E4DC97 /*  rock & rolla (feat. Rkomi).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " rock & rolla (feat. Rkomi).mp3"; sourceTree = "<group>"; };
+		52C3E29B28ECA28400E4DC97 /*  sci@ll@ (feat. Tananai).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " sci@ll@ (feat. Tananai).mp3"; sourceTree = "<group>"; };
+		52C3E29C28ECA28400E4DC97 /*  cas!no nella m!a testa (feat. Salmo).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " cas!no nella m!a testa (feat. Salmo).mp3"; sourceTree = "<group>"; };
+		52C3E29D28ECA28400E4DC97 /* rotonda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rotonda.mp3; sourceTree = "<group>"; };
+		52C3E29E28ECA28400E4DC97 /*  c!ao (feat. Rondodasosa).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " c!ao (feat. Rondodasosa).mp3"; sourceTree = "<group>"; };
+		52C3E29F28ECA28400E4DC97 /*  + bla se c'è bling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " + bla se c'è bling.mp3"; sourceTree = "<group>"; };
+		52C3E2A028ECA29100E4DC97 /*  r!va (feat. Pinguini Tattici Nucleari).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " r!va (feat. Pinguini Tattici Nucleari).mp3"; sourceTree = "<group>"; };
+		52C3E2A228ECA29100E4DC97 /*  !ly (feat. Coez).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " !ly (feat. Coez).mp3"; sourceTree = "<group>"; };
 		52CF013628E49E8600735782 /* thaPsicariete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thaPsicariete.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CF013928E49E8600735782 /* thaPsicarieteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thaPsicarieteApp.swift; sourceTree = "<group>"; };
 		52CF013B28E49E8600735782 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,9 +105,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		524D354F28ECD51A00DBC06A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				524D355028ECD53F00DBC06A /* TestUIOne.swift */,
+				524D355228ECDCB600DBC06A /* MyViewController.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		52C3E27928EC9FC900E4DC97 /* SPECCHIO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SPECCHIO;
+			sourceTree = "<group>";
+		};
+		52C3E27A28ECA15700E4DC97 /* c@ra++ere s?ec!@le */ = {
+			isa = PBXGroup;
+			children = (
+				52C3E29828ECA28300E4DC97 /*  _bilico_.mp3 */,
+				52C3E29228ECA28100E4DC97 /*  come ti vorrei.mp3 */,
+				52C3E29928ECA28300E4DC97 /*  l%p.mp3 */,
+				52C3E29628ECA28200E4DC97 /*  mar+e.mp3 */,
+				52C3E29428ECA28200E4DC97 /*  mi @mi o è f@ke.mp3 */,
+				52C3E29728ECA28300E4DC97 /*  molecole (interlude).mp3 */,
+				52C3E29C28ECA28400E4DC97 /*  cas!no nella m!a testa (feat. Salmo).mp3 */,
+				52C3E29F28ECA28400E4DC97 /*  + bla se c'è bling.mp3 */,
+				52C3E29128ECA28100E4DC97 /*  b@by nel bed.mp3 */,
+				52C3E29E28ECA28400E4DC97 /*  c!ao (feat. Rondodasosa).mp3 */,
+				52C3E29528ECA28200E4DC97 /*  m%n.mp3 */,
+				52C3E29A28ECA28300E4DC97 /*  rock & rolla (feat. Rkomi).mp3 */,
+				52C3E28F28ECA28000E4DC97 /*  s!r! (feat. Lazza & Sfera Ebbasta).mp3 */,
+				52C3E29B28ECA28400E4DC97 /*  sci@ll@ (feat. Tananai).mp3 */,
+				52C3E29328ECA28200E4DC97 /*  w()ah.mp3 */,
+				52C3E29028ECA28100E4DC97 /*  yeah.mp3 */,
+				52C3E29D28ECA28400E4DC97 /* rotonda.mp3 */,
+				52C3E2A028ECA29100E4DC97 /*  r!va (feat. Pinguini Tattici Nucleari).mp3 */,
+				52C3E2A228ECA29100E4DC97 /*  !ly (feat. Coez).mp3 */,
+			);
+			path = "c@ra++ere s?ec!@le";
+			sourceTree = "<group>";
+		};
 		52CF012D28E49E8500735782 = {
 			isa = PBXGroup;
 			children = (
+				524D354F28ECD51A00DBC06A /* Tests */,
 				52CF013828E49E8600735782 /* thaPsicariete */,
 				52CF014928E49E8600735782 /* thaPsicarieteTests */,
 				52CF015328E49E8600735782 /* thaPsicarieteUITests */,
@@ -136,30 +171,17 @@
 		52CF013828E49E8600735782 /* thaPsicariete */ = {
 			isa = PBXGroup;
 			children = (
+				52C3E26628E9EE6C00E4DC97 /* Info.plist */,
 				52CF013928E49E8600735782 /* thaPsicarieteApp.swift */,
 				52CF013B28E49E8600735782 /* ContentView.swift */,
-				52A800C728E9C51400783935 /*  _bilico_.mp3 */,
-				52A800C128E9C51400783935 /*  !ly (feat. Coez).mp3 */,
-				52A800CC28E9C51400783935 /*  + bla se c'è bling.mp3 */,
-				52A800C428E9C51400783935 /*  b@by nel bed.mp3 */,
-				52A800D128E9C51400783935 /*  c!ao (feat. Rondodasosa).mp3 */,
-				52A800C928E9C51400783935 /*  cas!no nella m!a testa (feat. Salmo).mp3 */,
-				52A800C228E9C51400783935 /*  come ti vorrei.mp3 */,
-				52A800CA28E9C51400783935 /*  l%p.mp3 */,
-				52A800CE28E9C51400783935 /*  m%n.mp3 */,
-				52A800C328E9C51400783935 /*  mar+e.mp3 */,
-				52A800C628E9C51400783935 /*  mi @mi o è f@ke.mp3 */,
-				52A800D328E9C51400783935 /*  molecole (interlude).mp3 */,
-				52A800CB28E9C51400783935 /*  okk@pp@.mp3 */,
-				52A800D228E9C51400783935 /*  r!va (feat. Pinguini Tattici Nucleari).mp3 */,
-				52A800CD28E9C51400783935 /*  rock & rolla (feat. Rkomi).mp3 */,
-				52A800C828E9C51400783935 /*  s!r! (feat. Lazza & Sfera Ebbasta).mp3 */,
-				52A800D028E9C51400783935 /*  sci@ll@ (feat. Tananai).mp3 */,
-				52A800C528E9C51400783935 /*  w()ah.mp3 */,
+				52C3E27728EC9F2700E4DC97 /* SPECCHIO.swift */,
+				52C3E27328EB8A8500E4DC97 /* ViewController.swift */,
+				52C3E27528EB8C8400E4DC97 /* AppDelegate.swift */,
+				52C3E26B28EB2F8B00E4DC97 /* Ariete.swift */,
 				52A800E828E9C54600783935 /* Extensions.swift */,
-				52A800C028E9C51400783935 /*  yeah.mp3 */,
-				52A800CF28E9C51400783935 /* rotonda.mp3 */,
 				52CF013D28E49E8600735782 /* Assets.xcassets */,
+				52C3E27A28ECA15700E4DC97 /* c@ra++ere s?ec!@le */,
+				52C3E27928EC9FC900E4DC97 /* SPECCHIO */,
 				52CF013F28E49E8600735782 /* Preview Content */,
 			);
 			path = thaPsicariete;
@@ -295,27 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52CF014128E49E8600735782 /* Preview Assets.xcassets in Resources */,
-				52A800D928E9C51400783935 /*  w()ah.mp3 in Resources */,
-				52A800D528E9C51400783935 /*  !ly (feat. Coez).mp3 in Resources */,
-				52A800DE28E9C51400783935 /*  l%p.mp3 in Resources */,
-				52A800E728E9C51400783935 /*  molecole (interlude).mp3 in Resources */,
-				52A800DD28E9C51400783935 /*  cas!no nella m!a testa (feat. Salmo).mp3 in Resources */,
-				52A800D728E9C51400783935 /*  mar+e.mp3 in Resources */,
 				52CF013E28E49E8600735782 /* Assets.xcassets in Resources */,
-				52A800DF28E9C51400783935 /*  okk@pp@.mp3 in Resources */,
-				52A800E628E9C51400783935 /*  r!va (feat. Pinguini Tattici Nucleari).mp3 in Resources */,
-				52A800E028E9C51400783935 /*  + bla se c'è bling.mp3 in Resources */,
-				52A800E228E9C51400783935 /*  m%n.mp3 in Resources */,
-				52A800DC28E9C51400783935 /*  s!r! (feat. Lazza & Sfera Ebbasta).mp3 in Resources */,
-				52A800E428E9C51400783935 /*  sci@ll@ (feat. Tananai).mp3 in Resources */,
-				52A800D628E9C51400783935 /*  come ti vorrei.mp3 in Resources */,
-				52A800DA28E9C51400783935 /*  mi @mi o è f@ke.mp3 in Resources */,
-				52A800D828E9C51400783935 /*  b@by nel bed.mp3 in Resources */,
-				52A800E128E9C51400783935 /*  rock & rolla (feat. Rkomi).mp3 in Resources */,
-				52A800D428E9C51400783935 /*  yeah.mp3 in Resources */,
-				52A800E328E9C51400783935 /* rotonda.mp3 in Resources */,
-				52A800DB28E9C51400783935 /*  _bilico_.mp3 in Resources */,
-				52A800E528E9C51400783935 /*  c!ao (feat. Rondodasosa).mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +342,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C3E27628EB8C8400E4DC97 /* AppDelegate.swift in Sources */,
+				52C3E27428EB8A8500E4DC97 /* ViewController.swift in Sources */,
+				524D355128ECD53F00DBC06A /* TestUIOne.swift in Sources */,
 				52CF013C28E49E8600735782 /* ContentView.swift in Sources */,
+				524D355328ECDCB600DBC06A /* MyViewController.swift in Sources */,
+				52C3E26C28EB2F8B00E4DC97 /* Ariete.swift in Sources */,
+				52C3E27828EC9F2700E4DC97 /* SPECCHIO.swift in Sources */,
 				52A800E928E9C54600783935 /* Extensions.swift in Sources */,
 				52CF013A28E49E8600735782 /* thaPsicarieteApp.swift in Sources */,
 			);
@@ -412,7 +420,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -504,16 +512,19 @@
 				DEVELOPMENT_TEAM = FKTH7QVD2T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = thaPsicariete/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = thaPsicariete;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ga.justmammtlol.iosapps.thaPsicariete;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -533,16 +544,19 @@
 				DEVELOPMENT_TEAM = FKTH7QVD2T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = thaPsicariete/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = thaPsicariete;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ga.justmammtlol.iosapps.thaPsicariete;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

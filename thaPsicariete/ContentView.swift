@@ -7,50 +7,85 @@
 
 import SwiftUI
 import AVKit
+import MediaPlayer
 
 struct marteplayer: View {
     @State var audioPlayer: AVAudioPlayer!
     @State var playing = false
     @State var width : CGFloat
+    
+    func setupRemoteCommandCenter() {
+        UIApplication.shared.beginReceivingRemoteControlEvents()
+        
+        let commandCenter = MPRemoteCommandCenter.shared()
+        
+        
+        commandCenter.playCommand.addTarget { event in
+            return .success
+        }
+        
+        
+        commandCenter.pauseCommand.addTarget { event in
+            return .success
+        }
+        
+        
+        commandCenter.nextTrackCommand.addTarget { event in
+            return .success
+        }
+        
+        
+        commandCenter.previousTrackCommand.addTarget { event in
+            return .success
+        }
+    }
+    
+    func updateLockScreen() {
+        var nowPlayingInfo = [String : Any]()
+        nowPlayingInfo[MPMediaItemPropertyArtist] = "thasup"
+        nowPlayingInfo[MPMediaItemPropertyTitle] = "mar+e"
+        nowPlayingInfo[MPMediaItemPropertyArtwork] = "carattere-speciale"
+        MPNowPlayingInfoCenter.default().nowPlayingInfo = nowPlayingInfo
+    }
     var body: some View {
         ZStack {
             Color.backgroundColor
                 .edgesIgnoringSafeArea(.all)
-        VStack {
-            Image("carattere-speciale")
-                .cornerRadius(25)
-            HStack {
-                
-                Text("mar+e").font(.system(size: 45)).fontWeight(.bold)
-                    .foregroundColor(.buttonColor)
-            }
-            HStack {
-                Button(action: {
-                    if self.audioPlayer.isPlaying{
-                        
-                        self.audioPlayer.pause()
-                        self.playing = false
-                        
-                    } else {
-                        self.audioPlayer.play()
-                        self.playing = true
-                    }
-                }) {
-                    Image(systemName: self.playing ? "pause.circle.fill" : "play.circle.fill").resizable()
-                        .frame( width: 50, height: 50)
-                        .aspectRatio(contentMode: .fit)
+            VStack {
+                Image("carattere-speciale")
+                    .cornerRadius(25)
+                HStack {
+                    
+                    Text("mar+e").font(.system(size: 45)).fontWeight(.bold)
                         .foregroundColor(.buttonColor)
                 }
-
-                
+                HStack {
+                    Button(action: {
+                        if self.audioPlayer.isPlaying{
+                            
+                            self.audioPlayer.pause()
+                            self.playing = false
+                            
+                        } else {
+                            self.audioPlayer.play()
+                            self.playing = true
+                        }
+                    }) {
+                        Image(systemName: self.playing ? "pause.circle.fill" : "play.circle.fill").resizable()
+                            .frame( width: 50, height: 50)
+                            .aspectRatio(contentMode: .fit)
+                            .foregroundColor(.buttonColor)
+                    }
+                    
+                    
+                }
+                ZStack(alignment: .leading){
+                    Capsule().fill(Color.white.opacity(0.08)).frame(height: 8)
+                    Capsule().fill(Color.buttonColor).frame(width: self.width, height: 8)
+                }
+                .padding(.top)
             }
-            ZStack(alignment: .leading){
-                Capsule().fill(Color.white.opacity(0.08)).frame(height: 8)
-                Capsule().fill(Color.buttonColor).frame(width: self.width, height: 8)
-            }
-            .padding(.top)
         }
-    }
         .onAppear {
             let sound = Bundle.main.path(forResource: " mar+e", ofType: "mp3")
             self.audioPlayer = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
@@ -66,8 +101,8 @@ struct marteplayer: View {
                     self.width = screen * CGFloat(value)
                 }
             }
-}
-   }
+        }
+    }
 }
 struct okkappaplayer: View {
     @State var audioPlayer: AVAudioPlayer!
@@ -384,6 +419,7 @@ struct yeahplayer: View {
     @State var audioPlayer: AVAudioPlayer!
     @State var playing = false
     @State var width : CGFloat
+    var dio = "dio porco"
     var body: some View {
         ZStack {
             Color.backgroundColor
@@ -1540,7 +1576,28 @@ struct MusicList: View {
                             }
                             .buttonStyle(PlainButtonStyle())
                             // .contentShape(RoundedRectangle)
+                            .padding(.bottom)
+                            
                         }
+                    VStack{
+                        Image("specchio")
+                            .cornerRadius(25)
+                        NavigationLink(destination: SPECCHIO()){
+                            RoundedRectangle(cornerRadius: 25)
+                                .frame(width: 350, height: 100)
+                                .foregroundColor(.gray)
+                                .overlay {
+                                    Text("SPECCHIO")
+                                        .font(.system(size: 35))
+                                        .fixedSize(horizontal: false, vertical: true)
+                                        .multilineTextAlignment(.center)
+                                    
+                                }
+                        }
+                        .buttonStyle(PlainButtonStyle())
+                        // .contentShape(RoundedRectangle)
+                        
+                    }
                     }
                 .navigationTitle("Music List")
                 }
@@ -1608,7 +1665,7 @@ struct AppInfo: View {
                      destination: URL(string: "https://github.com/justmammt/thaPsicarieteSource")!)
  
             }
-            Text("Version 0.1.0")
+            Text("Version 0.1.1")
         }
     }
 }
